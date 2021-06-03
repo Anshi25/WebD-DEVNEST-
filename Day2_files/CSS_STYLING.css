@@ -1,0 +1,22 @@
+body{
+    color:blanchedalmond;
+    background-color: darkred;
+    background-image: url("image html.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: gold;
+    font-size: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: peru;
+    display: inline;
+}
+h2{
+    display: block;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orchid;
+}
