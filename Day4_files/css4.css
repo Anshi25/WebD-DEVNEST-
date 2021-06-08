@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+.clock{
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 100%;
+    box-shadow:  0px 0px 0px 6px rgb(216, 213, 213),0px 0px 0px 5px #fff, 0px 0px 0px 52px rgb(236, 38, 12),
+    0px 0px 0px 55px rgb(221, 219, 219);
+
+
+                
+}
+.sec,.min,.hour{
+    line-height: 45px;
+    position: relative;
+    transform-origin: bottom;
+}
+.sec{
+    top: 20px;
+    height:180px;
+    width: 3px;
+    left: 200px;
+    background: black;
+    z-index: 3;
+    animation: sec_anim 60s linear infinite;
+}
+.min{
+    height:180px;
+    width: 3px;
+    left: 200px;
+    bottom: 160px;
+    background: black;
+    z-index: 2;
+    animation: min_anim 600s linear infinite;
+}
+.hour{
+    height:180px;
+    width: 3px;
+    left: 200px;
+    bottom: 340px;
+    background: black;
+    z-index: 1;
+    animation: hour_anim 6000s linear infinite;
+}
+@keyframes sec_anim{
+    from{transform:rotateZ(0deg));}
+    to{transform: rotateZ(360deg);}
+}
+@keyframes min_anim{
+    from{transform:rotateZ(0deg));}
+    to{transform: rotateZ(360deg);}
+}
+@keyframes hour_anim{
+    from{transform:rotateZ(0deg));}
+    to{transform: rotateZ(360deg);}
+}
