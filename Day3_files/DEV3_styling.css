@@ -1,0 +1,44 @@
+span{
+    font-weight: bolder;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+
+h1{
+    text-align: left;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: crimson;
+    background-color: darksalmon;
+}
+body{
+    text-align: left;
+    background-color:peru;
+    color: maroon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table{
+    border: 2px solid black;
+}
+td{
+    padding:2px;
+    border: 1px solid blueviolet;
+}
+#heading{
+    font-weight: bold;
+}
+#course{
+    font-weight: bold;
+    color: darkseagreen;
+}
+h3{
+    text-align: left;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: crimson;
+    background-color: darksalmon;
+}
