@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            first js code
+        </title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            function checkarray(){
+
+            //Comment rest questions and execute each question correctly..like to execute 1 ques comment rest 4 and likewise...
+
+            // 1)
+        
+          //Write a JavaScript function to check whether an `input` is an array or not
+          var a=[1,2,3,4,5];
+            var b="sakhdksg";
+           document.getElementById("demo").innerHTML=Array.isArray(a);
+           document.getElementById("demo1").innerHTML=Array.isArray(b);  
+
+            //  2)
+            //<!--Write a JavaScript function to clone an array-->
+            var a=[12,34,45,56];
+            //var c=[].concat(a); or
+            var c=a.slice();
+            document.write(c);
+
+
+
+            //  3)
+            //Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array
+         var a=[12,67,89,90]
+          function first(n){
+              //document.write(a);
+             if(a.length==0)
+             {
+             return 0;
+             }
+             if(n==0) 
+             {
+             return a[0];
+             }
+             if(n>=0)
+             {
+             return a.slice(0,n);
+             }
+         }
+         var temp=first(2);
+         document.write(temp);
+
+
+
+            //  4)
+            //Write a simple JavaScript program to join all elements of the following array into a string.
+            a = ["Red", "Green", "White", "Black"];
+            document.write(a.toString()+"<br>");
+            document.write(a.join()+"<br>");
+            document.write(a.join('+'));
+
+
+
+
+            //  5)
+               //Write a JavaScript program to find the most frequent item of an array
+            var a=[12,23,56,12,'asd',67,23,56,23];
+            var great=1;
+            var count=0;
+            var data;
+            document.write("Array Length "+a.length+"<br>");
+            for (var i=0; i<a.length; i++)
+            {  
+                    for (var j=i; j<a.length; j++)
+                    {
+                            if (a[i] == a[j])
+                            count++;
+                            if (great<count)
+                            {
+                            great=count; 
+                            data = a[i];
+                            }
+                    }
+                    count=0;
+            }
+            document.write(data +" ( " + great + " times ) ");        
+          }
+    </script>
+    <form>
+        <input type="button" onclick="checkarray()" value="click here">
+    </form>
+    </body>
+</html>
