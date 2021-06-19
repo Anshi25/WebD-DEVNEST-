@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Simple calculator</title>
+        <style>
+            body{
+                background-color: palegoldenrod;
+            }
+            h1{
+                    text-align: left;
+                    font-size: large;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-style: normal;
+                    color: olive;
+                    font-size: 80px;
+
+            }
+            h2{
+                text-align: left;
+                    font-size: large;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-style: normal;
+                    color: orangered;
+                    font-size: 40px;
+            }
+                input[type=number]
+                {
+                    width: 100%;
+                    height: 40px;
+                }
+                input[type=number]:hover {
+                background-color:lightpink;
+                border: 1px solid black;
+                }
+                input[type=button]:hover {
+                background-color: mediumaquamarine;
+                border: 1px solid black;
+                height: 40px;
+                }
+                #content {
+                    position: relative;
+                }
+                #content img {
+                    position: absolute;
+                    height: 250px;
+                    width: 300px;
+                    top: -190px;
+                    right: 0px;
+                }
+        </style>
+        <script src="Dev5_JS.js"></script>
+    </head>
+    <body>
+        <h1><b>CALCULATOR</b></h1>
+        <div id="content">
+        <img src="calci.jpg" >
+        </div>
+        <div class="form">
+            <label for="first-no." class="input-label">
+                <span class="label-text"><h2>Enter the First number:</h2> </span>
+            </label>
+        <input type="number" id="first"  name="first-no." autocomplete="off" required>
+        </div>
+        <div class="form">
+            <label for="second-no." class="input-label">
+                <span class="label-text"><h2>Enter the Second number:</h2> </span>
+            </label>
+            <input type="number" id="second" name="second-no." autocomplete="off" required>
+           
+            </div>
+            <p id="result"></p>
+            <div class="button-grp">
+                <input type="button" value="ADDITION" onclick="plus()">
+                <input type="button" value="SUBTRACTION" onclick="minus()">
+                <input type="button" value="MULTIPLICATION" onclick="multiply()">
+                <input type="button" value="DIVISION" onclick="divide()">
+            </div><br><br>
+            
+            <input type="number" id="res" name="res" autocomplete="off" required>
+            
+
+    </body>
+</html>
