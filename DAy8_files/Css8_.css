@@ -1,0 +1,33 @@
+.grid{ 
+    box-shadow: 0px 1px 1px;
+    display:inline-block;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.table{
+    border-color:;
+    border-spacing: 0px;
+}
+td{
+    width: 30px;
+    height: 30px;
+    background-color:darkred;
+    margin:0.5px;
+    border-spacing: null;
+    border:1px solid lightcoral;
+
+
+}
+table{
+    border-spacing: 0px;
+
+}
+.ani{
+    background-color: rgb(194, 135, 184);
+    -webkit-animation: random 5s infinite;
+    animation: randoms infinite ;
+}
+body{
+    padding-top: 11px;
+    background-image: url("add.jpg");
+}
