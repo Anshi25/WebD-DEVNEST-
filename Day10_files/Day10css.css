@@ -1,0 +1,55 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display:flex;
+    background:lightpink;
+    border:8px dashed brown;
+    border-radius: 4px;
+  }
+  
+  .main {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .insider{
+    width: calc(25% - 10px);
+    height: calc(30.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(0.89);
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .insider:active {
+    transform: scale(0.97);
+    transition: transform .5s;
+  }
+  
+  .insider.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .frontpic,
+  .backpic {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 10%;
+    background:crimson;
+    backface-visibility: hidden;
+  }
+  
+  .frontpic {
+    transform: rotateY(180deg);
+  }
