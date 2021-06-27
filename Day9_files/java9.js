@@ -26,3 +26,6 @@ for (let i = 0; i < 300; i++) {
     });
     container.appendChild(seat);
 }
+
+
+
