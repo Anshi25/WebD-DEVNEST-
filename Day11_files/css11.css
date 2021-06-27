@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: darksalmon;
+    display: grid;
+    place-items: center;
+
+}
+.inner{
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.8rem red;
+    
+}
+.inner h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 1rem 0 4rem 0;
+}
+.inner li{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    list-style-type: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#btn,.play{
+    padding:1rwm 3 rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: cadetblue;
+    margin-top: 4rem;
+}
+
+#btn:hover{
+    background-color: darkblue;
+}
+
+#showscore{
+    background-color:lightgray;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.8rem darkgray;
+}
+
+.last{
+    display: none;
+}
+
+#showscore h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#showscore .play{
+    margin-top: 2rem;
+    background-color: lightgoldenrodyellow;
+    color:green;
+}
+
+#showscore .play:hover{
+    background-color: darkorchid;
+    color: darkred;
+}
