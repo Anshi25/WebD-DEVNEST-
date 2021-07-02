@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  border: 20px groove#1F51FF;
+     color:brown;
+    font-family: Cabin, sans-serif;
+    margin:0;
+}
+  .container {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li * {
+    float: left;
+  }
+  li, h3 {
+    clear:both;
+    list-style:none;
+  }
+  input, button {
+    outline: none;
+  }
+  button {
+    background: none;
+    border: 0px;
+    color:darkred;
+    font-size: 20px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Cabin, sans-serif;
+    cursor: pointer;
+  }
+  button:hover {
+    color: blue;
+  }
+  h3,
+  label[for='new-task'] {
+    color:firebrick;
+    font-weight: 700;
+    font-size: 30px;
+    border-bottom: 2px dashed crimson;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  input[type="text"] {
+    margin: 0;
+    font-size: 20px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 2px ridge crimson;
+    background: palevioletred;
+    border-radius: 6px;
+    font-family: Cabin, sans-serif;
+    color: darkorchid;
+  }
+  input[type="text"]:focus {
+    color: brown;
+  }
+  
+  /* New Task */
+  label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+  }
+  input#new-task {
+    float: left;
+    width: 318px;
+  }
+  p > button:hover {
+    color: #0d159C;
+  }
+  
+  /* Task list */
+  li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+  }
+  li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+  }
+  li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 11px;
+  }
+  li >  input[type="text"] {
+    width: 226px;
+  }
+  li > .delete:hover {
+    color: #CF2323;
+  }
+  
+  /* Completed */
+  #completed-tasks label {
+    text-decoration: line-through;
+    color:navy;
+  }
+  
+  /* Edit Task */
+  ul li input[type=text] {
+    display:none;
+  }
+  
+  ul li.editMode input[type=text] {
+    display:block;
+  }
+  
+  ul li.editMode label {
+    display:none;
+  }
