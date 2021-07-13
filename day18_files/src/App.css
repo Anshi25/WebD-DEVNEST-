@@ -1,0 +1,16 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: rgb(241, 170, 170);
+  border:5vw ridge rgb(187, 39, 39);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
