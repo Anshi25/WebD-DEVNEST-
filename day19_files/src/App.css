@@ -1,0 +1,28 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color:rgb(218, 218, 91);
+  border:1vw dashed olive;
+  height: 100vh;
+  margin:2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+    border-radius: 10px;
+    margin:1vw;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+    font-size: 20px;
+    width:40px;
+
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px 5px rgb(158, 160, 18);
+    color: white;
+}
