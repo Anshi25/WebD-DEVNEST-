@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        border: 40px groove rgb(21, 187, 187);
+        font-size: 25px;
+
+}
+.app nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.app nav ul li {
+    margin-right: 16vw;
+    float: left;
+  }
+
+nav{
+    background-image: url("https://wallpaperaccess.com/full/3939645.jpg");
+    background-size: cover;
+    background-position: center;
+    font-weight: bolder;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 15px 10px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .about h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .main {
+    text-align: center;
+    align-items: center;
+  }
+  .main button{
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: rgb(0, 255, 234);
+  }
+  .main button:hover{
+    background-color: rgb(9, 185, 162)
+  }
+  .main1{
+    text-align: center;
+  }
+  .main2{
+    text-align: center;
+  }
+  .about .ab{
+    text-align: center;
+    font-size: 22px;
+  }
+
+
+
