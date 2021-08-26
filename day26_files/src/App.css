@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:0;
+}
+
+
+body{
+  background-color: rgb(146, 90, 197);
+  background-repeat: no-repeat;
+  background-size:cover;
+  border: 40px groove purple;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin:10px;
+}
+
+.App{
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+
+h1{
+  margin:20px;
+  font-size: 60px;
+  color: rgb(83, 3, 83);
+  text-shadow: 4px 2px 8px lightpink;
+}
+
+h2{
+  margin:20px;
+  font-size: 50px;
+  color: rgb(83, 3, 83);
+  text-shadow: 4px 2px 8px lightpink;
+}
+
+.form{
+  font-size: 20px;
+  color: pink;
+  font-weight: bolder;
+  padding: 40px;
+}
+
+p{
+  padding:10px;
+}
+input{
+  margin-left: 10px;
+  display: inline-block;
+}
+input:hover{
+  color: rgb(235, 52, 89);
+  border: 3px solid rgb(133, 39, 133);
+  box-shadow: 5px 0px 40px 10px rgb(208, 68, 243);
+  
+}
