@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(218,9,245);
+  background: linear-gradient(90deg, rgba(218,9,245,1) 0%, rgba(168,49,222,1) 50%, rgba(23,232,219,1) 100%);
+  margin:10px;
+  height:100vh;
+  border: 50px ridge purple;
+  height: 100vh;
+}
+
+
+
+.App{
+  align-items: center;
+  height:70vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.App button{
+  padding: 5px;
+  margin:20px;
+  font-size: 1rem;
+  background-color: #ebc8f1;
+  border-radius: 30px;
+  width: 23rem;
+  box-shadow: 2px 2px 8px rgb(99, 100, 100);
+
+}
+.App button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+.App input{
+  padding: 6px;
+  margin: 10px;
+}
+.main{
+  margin-top: 30px;
+  border: 1px inset navy;
+  padding: 20px;
+  padding-right: 40px;
+  box-shadow: 2px 2px 8px rgb(99, 100, 100);
+}
+.main button{
+  background-color: rgb(226, 97, 243);
+  margin-top: 10px;
+  width: 5rem;
+}
