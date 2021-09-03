@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button,input{
+  padding: 10px;
+  margin:10px;
+  font-size: 1.2rem;
+  border:2px solid rgb(218, 53, 135);
+  box-shadow: 1px 0px 3px 4px lightpink;
+  border-radius: 20px;
+}
+
+h3{
+  display: inline-block;
+}
+
+body{
+  background: rgb(222,82,139);
+background: linear-gradient(90deg, rgba(222,82,139,1) 0%, rgba(39,231,190,1) 50%, rgba(180,230,70,1) 100%);
+  margin:5px;
+  height:100vh;
+  border: 10px dashed rgb(175, 137, 175);
+
+}
+
+h2{
+  color:rgb(220, 20, 97);
+  font-size: 40px;
+  text-shadow:  5px 2px #da9fc8;
+}
